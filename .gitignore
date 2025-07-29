@@ -1,37 +1,140 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+# ------------------------------
+# GENERAL
+# ------------------------------
+.DS_Store
+.env
+.env*.local
+*.pem
+*.log
 
-# dependencies
+# ------------------------------
+# DEPENDENCIES
+# ------------------------------
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Expo
+# ------------------------------
+# EXPO
+# ------------------------------
 .expo/
+.expo-shared/
 dist/
 web-build/
 expo-env.d.ts
 
-# Native
-.kotlin/
+# ------------------------------
+# GIT / VCS
+# ------------------------------
 *.orig.*
+*.rej
+*.patch
+*.un~
+
+# ------------------------------
+# METRO / BUNDLER
+# ------------------------------
+.metro-health-check*
+*.pack
+*.cache
+*.tmp
+
+# ------------------------------
+# TYPESCRIPT
+# ------------------------------
+*.tsbuildinfo
+
+# ------------------------------
+# ANDROID / iOS
+# ------------------------------
+android/
+ios/
 *.jks
+*.keystore
+*.key
 *.p8
 *.p12
-*.key
 *.mobileprovision
 
-# Metro
-.metro-health-check*
+# ------------------------------
+# VSCODE / EDITOR FILES
+# ------------------------------
+.vscode/
+.idea/
 
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
-
-# macOS
+# ------------------------------
+# MISC
+# ------------------------------
+coverage/
+*.tgz
+# ------------------------------
+# GENERAL
+# ------------------------------
 .DS_Store
-*.pem
-
-# local env files
+.env
 .env*.local
+*.pem
+*.log
 
-# typescript
+# ------------------------------
+# DEPENDENCIES
+# ------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ------------------------------
+# EXPO
+# ------------------------------
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# ------------------------------
+# GIT / VCS
+# ------------------------------
+*.orig.*
+*.rej
+*.patch
+*.un~
+
+# ------------------------------
+# METRO / BUNDLER
+# ------------------------------
+.metro-health-check*
+*.pack
+*.cache
+*.tmp
+
+# ------------------------------
+# TYPESCRIPT
+# ------------------------------
 *.tsbuildinfo
+
+# ------------------------------
+# ANDROID / iOS
+# ------------------------------
+android/
+ios/
+*.jks
+*.keystore
+*.key
+*.p8
+*.p12
+*.mobileprovision
+
+# ------------------------------
+# VSCODE / EDITOR FILES
+# ------------------------------
+.vscode/
+.idea/
+
+# ------------------------------
+# MISC
+# ------------------------------
+coverage/
+*.tgz
