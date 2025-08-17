@@ -10,6 +10,11 @@
       "StackName": "amplify-cdt-dev-11f4b",
       "StackId": "arn:aws:cloudformation:us-east-1:684637209170:stack/amplify-cdt-dev-11f4b/470ce840-7161-11f0-a280-0affe81cf975",
       "AmplifyAppId": "d1ubth78jgo6ne"
+    },
+    "categories": {
+      "api": {
+        "ThoughtAPI": {}
+      }
     }
   }
 }
