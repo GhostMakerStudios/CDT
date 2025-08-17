@@ -7,6 +7,9 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 import ThoughtViewerScreen from '@/screens/ThoughtViewerScreen';
+import { Amplify } from 'aws-amplify';
+import awsExports from './src/aws-exports'; // ✅ adjust path if needed
+Amplify.configure(awsExports);
 
 const Stack = createNativeStackNavigator();
 

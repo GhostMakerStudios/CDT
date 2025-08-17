@@ -7,4 +7,5 @@ type Thought
   message: String!
   tags: [String!]!
   embedding: [Float!]!
+  audioUrl: String
 }
